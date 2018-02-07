@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Anatoly Belobrovik</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="header__photo" src="assets/images/me.jpg" alt="my photo">
+      <div class="header__intro">
+        <h4 class="header__intro__position">Фронт-енд разработчик</h4>
+        <h2 class="header__intro__name">Анатолий Белобровик</h2>
+      </div>
+      <p class="header__description">
+        Привет, меня зовут Анатолий и я front-end developer. Свой путь как разработчик я начал относительно недавно, но за это время
+        я многое узнал и понял, что многое еще предстоит понять. За моими плечами есть несколько проектов коммерческого и
+        стартап направления. Владею технологиями: JavaScript, TypeScript, React, Redux, VueJS, NodeJS, MongoDB, Webpack,
+        Git.
+      </p>
+    </header>
+    <main class="content">
+      <section class="expectations">
+        <h2 class="expectations__title">Мои ожидания</h2>
+        <div class="expectations__grid">
+          <div id="slide-01" class="expectations__grid__item visible-1">
+            <h3>Лучшие практики</h3>
+            <p>Перенять опыт практиков фронт-енд разработки.</p>
+          </div>
+          <div id="slide-02" class="expectations__grid__item visible-2">
+            <h3>Команда</h3>
+            <p>Участие в проектной разработке.</p>
+          </div>
+          <div id="slide-03" class="expectations__grid__item visible-3">
+            <h3>Узнать Яндекс изнутри</h3>
+            <p>Познакомиться с продуктами и процессами компании изнутри.</p>
+          </div>
+          <div id="slide-04" class="expectations__grid__item visible-4">
+            <h3>Трудоустройство</h3>
+            <p>Ищу возможности присоединения к команде, работающей над созданием крутых продуктов.</p>
+          </div>
+        </div>
+        <div class="slider__links slider__links_hide-on-desktop">
+          <a class="slider__links__link" href="#slide-01"></a>
+          <a class="slider__links__link" href="#slide-02"></a>
+          <a class="slider__links__link" href="#slide-03"></a>
+          <a class="slider__links__link" href="#slide-04"></a>
+        </div>
+      </section>
+      <section class="works">
+        <h2 class="works__title">Мои работы</h2>
+        <div class="works__item">
+          <div class="works__item__image slider">
+            <div class="slider__links">
+              <a class="slider__links__link" href="#slide-11"></a>
+              <a class="slider__links__link" href="#slide-12"></a>
+              <a class="slider__links__link" href="#slide-13"></a>
+            </div>
+            <div class="slider__slides visible-3">
+              <img class="slider__slides__slide" id="slide-11" src="assets/images/project11.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-12" src="assets/images/project12.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-13" src="assets/images/project13.PNG" alt="project demo">
+            </div>
+          </div>
+          <div class="works__item__description">
+            <div class="works__item__description__meta">
+              <h4>CarFinder</h4>
+              <a target="_blank" href="https://github.com/CarFinder/CarFinderClient" class="works__item__link">github.com</a>
+            </div>
+            <p>Приложение, которое позволяет аггрегировать все актуальные объявления по продаже автомобилей с крупнейших белорусских
+              платформ. Приложение предоставляет фильтры для поиска и показа актуальных объявлений на основе пожеланий пользователя.
+              Также можно сохранять параметры фильтров, чтобы получать уведомления по электронной почте о новых предложениях.
+              Приложение также предоставляет возможность проверить ликвидность автомобиля по модели и типу кузова.
+            </p>
+          </div>
+          <ul class="works__item__tags tags">
+            <li>
+              <a class="tags__tag">TypeScript</a>
+            </li>
+            <li>
+              <a class="tags__tag">React</a>
+            </li>
+            <li>
+              <a class="tags__tag">Redux</a>
+            </li>
+            <li>
+              <a class="tags__tag">Bulma</a>
+            </li>
+            <li>
+              <a class="tags__tag">KoaJS</a>
+            </li>
+            <li>
+              <a class="tags__tag">MongoDB</a>
+            </li>
+          </ul>
+        </div>
+        <div class="works__item">
+          <div class="works__item__image slider right">
+            <div class="slider__slides visible-3">
+              <img class="slider__slides__slide" id="slide-21" src="assets/images/project21.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-22" src="assets/images/project22.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-23" src="assets/images/project23.PNG" alt="project demo">
+            </div>
+            <div class="slider__links">
+              <a class="slider__links__link" href="#slide-21"></a>
+              <a class="slider__links__link" href="#slide-22"></a>
+              <a class="slider__links__link" href="#slide-23"></a>
+            </div>
+          </div>
+          <div class="works__item__description right">
+            <div class="works__item__description__meta">
+              <h4>Meetup Organizer</h4>
+              <a target="_blank" href="https://github.com/synthetiquely/VueDevMeetupApp" class="works__item__link">github.com</a>
+            </div>
+            <p>Приложение для организации оффлайн-мероприятий. Позволяет зарегистрироваться и создавать новые мероприятия. Также
+              можно выбрать и присоединиться к уже существующему мероприятию.
+            </p>
+          </div>
+          <ul class="works__item__tags tags right">
+            <li>
+              <a class="tags__tag">VueJS</a>
+            </li>
+            <li>
+              <a class="tags__tag">Vuex</a>
+            </li>
+            <li>
+              <a class="tags__tag">Vuetify</a>
+            </li>
+            <li>
+              <a class="tags__tag">Firebase</a>
+            </li>
+          </ul>
+        </div>
+        <div class="works__item">
+          <div class="works__item__image slider">
+            <div class="slider__links">
+              <a class="slider__links__link" href="#slide-31"></a>
+              <a class="slider__links__link" href="#slide-32"></a>
+              <a class="slider__links__link" href="#slide-33"></a>
+            </div>
+            <div class="slider__slides visible-3">
+              <img class="slider__slides__slide" id="slide-31" src="assets/images/project31.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-32" src="assets/images/project32.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-33" src="assets/images/project33.PNG" alt="project demo">
+            </div>
+          </div>
+          <div class="works__item__description">
+            <div class="works__item__description__meta">
+              <h4>Task Tracker</h4>
+              <a target="_blank" href="https://github.com/synthetiquely/TaskTracker" class="works__item__link">github.com</a>
+            </div>
+            <p>Приложение для организации работы над ИТ-проектами. Возможность зарегистрироваться как менеджер проекта либо
+              разработчик. Менеджеры проекта могут создавать новые проекты, добавлять существующих людей к ним, и управлять
+              работой над ним. Разработчики могут создавать и выполнять задания, писать комментарии к заданиям.
+            </p>
+          </div>
+          <ul class="works__item__tags tags">
+            <li>
+              <a class="tags__tag">VueJS</a>
+            </li>
+            <li>
+              <a class="tags__tag">Vuex</a>
+            </li>
+            <li>
+              <a class="tags__tag">Semantic UI</a>
+            </li>
+            <li>
+              <a class="tags__tag">Nodejs</a>
+            </li>
+            <li>
+              <a class="tags__tag">MongoDB</a>
+            </li>
+          </ul>
+        </div>
+        <div class="works__item">
+          <div class="works__item__image slider right">
+            <div class="slider__slides visible-3">
+              <img class="slider__slides__slide" id="slide-41" src="assets/images/project41.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-42" src="assets/images/project42.PNG" alt="project demo">
+              <img class="slider__slides__slide" id="slide-43" src="assets/images/project43.PNG" alt="project demo">
+            </div>
+            <div class="slider__links">
+              <a class="slider__links__link" href="#slide-41"></a>
+              <a class="slider__links__link" href="#slide-42"></a>
+              <a class="slider__links__link" href="#slide-43"></a>
+            </div>
+          </div>
+          <div class="works__item__description right">
+            <div class="works__item__description__meta">
+              <h4>Survey App</h4>
+              <a target="_blank" href="https://github.com/synthetiquely/SurveyApp" class="works__item__link">github.com</a>
+            </div>
+            <p>Приложение для организации и проведения опросов. Имеет встроенный конструктор для создания опросов различной
+              сложности. Созданный опрос также можно сохранить как шаблон для использования в будущем. Позволяет искать уже
+              созданные опросы. Предоставляет платформу для проведения и анализа результатов проведения опросов.
+            </p>
+          </div>
+          <ul class="works__item__tags tags right">
+            <li>
+              <a class="tags__tag">React</a>
+            </li>
+            <li>
+              <a class="tags__tag">Redux</a>
+            </li>
+            <li>
+              <a class="tags__tag">Bootstrap 3</a>
+            </li>
+            <li>
+              <a class="tags__tag">Express</a>
+            </li>
+            <li>
+              <a class="tags__tag">MongoDB</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Контактная информация</h2>
+      <p class="footer__description">Я открыт для новых проектов. Вы можете прислать мне для оценки примерное техническое задание или просто описание проекта
+        своими словами.
+      </p>
+      <ul class="footer__links">
+        <p>Ссылки на мои соцсети:</p>
+        <li class="footer__links__link">
+          <i class="fab fa-telegram footer__links__link__icon"></i>
+          <a target="_blank" href="https://telegram.me/synthetique">Telegram</a>
+        </li>
+        <li class="footer__links__link">
+          <i class="fab fa-github footer__links__link__icon"></i>
+          <a target="_blank" href="https://github.com/synthetiquely">GitHub</a>
+        </li>
+        <li class="footer__links__link">
+          <i class="fab fa-twitter footer__links__link__icon"></i>
+          <a target="_blank" href="https://twitter.com/synthetiquely">Twitter</a>
+        </li>
+      </ul>
+      <form class="form">
+        <input class="form__input" type="text" name="name" id="name" value="" placeholder="Имя">
+        <input class="form__input" type="email" name="email" id="email" value="" placeholder="Почтовый ящик">
+        <textarea class="form__textarea" name="message" id="message" rows="4" placeholder="Сообщение"></textarea>
+        <div class="form__file">
+          <input type="file" name="file" id="file" class="form__file__input">
+          <label for="file" class="form__file__label">
+            <i class="fas fa-file"></i> Прикрепить ТЗ</label>
+        </div>
+        <button class="form__submit" type="submit">Отправить</button>
+      </form>
+    </footer>
+  </div>
+</body>
+
+</html>
